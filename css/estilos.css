@@ -1,0 +1,121 @@
+
+body{
+    background: rgba(0, 255, 136, 0.288);
+
+}
+
+
+
+img {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+img:hover{
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 25px #000000;
+    -webkit-box-shadow: 0px 0px 25px 25px #080808;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+/*
+        -webkit-transform:scale(0.3);
+        transform:scale(1.3);*/
+}
+
+.puntajes{
+    border: rgb(0, 0, 0) 8px solid;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.puntajes h1 {
+    font-size: 24px;
+    margin-top: 2rem;
+}
+
+.puntaje{
+    margin-bottom: -10%;
+
+}
+
+.puntaje3{
+    margin-bottom: 10%;
+}
+
+
+.titulo{
+    text-align: center;
+    margin-bottom: -3%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: -3%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+    background-color: #dfe;
+    border-radius: 5px;
+   border: 3px solid #39c;
+   width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.button1{
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-transition : all 0.3s ease-in-out;
+    -moz-transition : all 0.3s ease-in-out;
+    -ms-transition : all 0.3s ease-in-out;
+    -o-transition : all 0.3s ease-in-out;
+    transition : all 0.90s ease-in-out;
+    word-wrap: break-word;
+
+    /*estilo forma botón*/
+
+    padding: 1; /*espacio alrededor texto*/
+    background-color: #3c9239; /*color botón*/
+    border-radius: 10px;
+}
+
+.button2{
+    margin-left: 9%;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-transition : all 0.3s ease-in-out;
+    -moz-transition : all 0.3s ease-in-out;
+    -ms-transition : all 0.3s ease-in-out;
+    -o-transition : all 0.3s ease-in-out;
+    transition : all 0.90s ease-in-out;
+    word-wrap: break-word;
+    
+        /*estilo forma botón*/
+    
+        padding: 1; /*espacio alrededor texto*/
+        background-color: #923939; /*color botón*/
+        border-radius: 10px;
+    }
+
+.contenedor-padre {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecera {
+    margin-bottom: 4rem;
+}

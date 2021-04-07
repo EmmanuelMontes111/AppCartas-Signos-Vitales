@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<div class="contenedor-padre">
+		<div class="cabecera">
+			<div class="titulo">
+				<h1>JUEGA Y APRENDE</h1>
+			</div>
+			<div class="subtitulo">
+				<h2>ENCUENTRA LA PAREJA</h2>
+			</div>
+		</div>
+
+		<div class="contenido">
+			<div>
+				<img src="Media/Numeros/carta1.png" onclick="cambiar(this);">
+				<img src="Media/Numeros/carta2.png" onclick="cambiar2(this);">
+				<img src="Media/Numeros/carta3.png" onclick="cambiar3(this);">
+				<img src="Media/Numeros/carta4.png" onclick="cambiar4(this);">
+				<img src="Media/Numeros/carta5.png" onclick="cambiar5(this);">
+				<img src="Media/Numeros/carta6.png" onclick="cambiar6(this);">
+				<img src="Media/Numeros/carta7.png" onclick="cambiar7(this);">
+				<img src="Media/Numeros/carta8.png" onclick="cambiar8(this);">
+				<img src="Media/Numeros/carta9.png" onclick="cambiar9(this);">
+				
+				<img src="Media/Numeros/carta10.png" onclick="cambiar10(this);">
+				<img src="Media/Numeros/carta11.png" onclick="cambiar11(this);">
+				<img src="Media/Numeros/carta12.png" onclick="cambiar12(this);">
+				<img src="Media/Numeros/carta13.png" onclick="cambiar13(this);">
+				<img src="Media/Numeros/carta14.png" onclick="cambiar14(this);">
+				<img src="Media/Numeros/carta15.png" onclick="cambiar15(this);">
+				<img src="Media/Numeros/carta16.png" onclick="cambiar16(this);">
+				<img src="Media/Numeros/carta17.png" onclick="cambiar17(this);">
+				<img src="Media/Numeros/carta18.png" onclick="cambiar18(this);">
+				
+				<img src="Media/Numeros/carta19.png" onclick="cambiar19(this);">
+				<img src="Media/Numeros/carta20.png" onclick="cambiar20(this);">
+				<img src="Media/Numeros/carta21.png" onclick="cambiar21(this);">
+				<img src="Media/Numeros/carta22.png" onclick="cambiar22(this);">
+				<img src="Media/Numeros/carta23.png" onclick="cambiar23(this);">
+				<img src="Media/Numeros/carta24.png" onclick="cambiar24(this);">
+				<img src="Media/Numeros/carta25.png" onclick="cambiar25(this);">
+				<img src="Media/Numeros/carta26.png" onclick="cambiar26(this);">
+				<img src="Media/Numeros/carta27.png" onclick="cambiar27(this);">
+				
+				<img src="Media/Numeros/carta28.png" onclick="cambiar28(this);">
+				<img src="Media/Numeros/carta29.png" onclick="cambiar29(this);">
+				<img src="Media/Numeros/carta30.png" onclick="cambiar30(this);">
+
+				<audio id="carta" src="Musica/corcho.mp3">
+				<audio id="zorro" src="Musica/Zorro no te la lleves.mp3"></audio>
+				<audio id="ingles" src="Musica/It was at this moment he knew he fucked up.mp3"></audio>
+				<audio id="nelson" src="Musica/JA JA Nelson.mp3"></audio>
+				<audio id="bazinga" src="Musica/bazinga.mp3"></audio>
+				<audio id="bobEsponja" src="Musica/bob-esponja-tonos.mp3"></audio>
+				<audio id="whatSap" src="Musica/funny-whatsapp.mp3"></audio>
+				<audio id="nanana" src="Musica/graciosos-nanana.mp3"></audio>
+				<audio id="ohNou" src="Musica/oh-nou.mp3"></audio>
+			</div>
+
+			<div class="puntajes">
+				<div class="puntaje">
+					<h1>EQUIPO 1</h1>
+					<button class="button1" onclick="punto()">😁</button>
+					<button class="button2" onclick="nopunto()">🤮</button>
+					<input id="total" type="number" disabled value="0">
+					<audio id="loser" src="Musica/punto Perdido.mp3"></audio>
+					<audio id="win" src="Musica/punto Ganado.mp3"></audio>
+				</div>
+
+				<div class="puntaje">
+					<h1>EQUIPO 2</h1>
+					<button class="button1" onclick="punto2()">😁</button>
+					<button class="button2" onclick="nopunto2()">🤮</button>
+					<input id="total2" type="number" disabled value="0">
+				</div>
+
+				<div class="puntaje">
+					<h1>EQUIPO 3</h1>
+					<button class="button1" onclick="punto3()">😁</button>
+					<button class="button2" onclick="nopunto3()">🤮</button>
+					<input id="total3" type="number" disabled value="0">
+				</div>
+			
+				<div class="puntaje">
+					<h1>EQUIPO 4</h1>
+
+					<button class="button1" onclick="punto4()">😁</button>
+					<button class="button2" onclick="nopunto4()">🤮</button>
+					<input id="total4" type="number" disabled value="0">
+				</div>
+	<!--
+				<div class="puntaje">
+					<h1>Equipo5:</h1>
+
+					<button onclick="punto5()" >😁</button>
+					<button onclick="nopunto5()" >🤮</button>
+					<input id="total5" type="number" disabled value="0" >
+				</div>
+				-->
+			</div>
+		</div>
+	</div>
+	<script src="funciones/cambiar.js"></script>
+	<script src="funciones/cambiar2.js"></script>
+	<script src="funciones/cambiar3.js"></script>
+	<script src="funciones/cambiar4.js"></script>
+	<script src="funciones/cambiar5.js"></script>
+	<script src="funciones/cambiar6.js"></script>
+	<script src="funciones/cambiar7.js"></script>
+	<script src="funciones/cambiar8.js"></script>
+	<script src="funciones/cambiar9.js"></script>
+	<script src="funciones/cambiar10.js"></script>
+	<script src="funciones/cambiar11.js"></script>
+	<script src="funciones/cambiar12.js"></script>
+	<script src="funciones/cambiar13.js"></script>
+	<script src="funciones/cambiar14.js"></script>
+	<script src="funciones/cambiar15.js"></script>
+	<script src="funciones/cambiar16.js"></script>
+	<script src="funciones/cambiar17.js"></script>
+	<script src="funciones/cambiar18.js"></script>
+	<script src="funciones/cambiar19.js"></script>
+	<script src="funciones/cambiar20.js"></script>
+	<script src="funciones/cambiar21.js"></script>
+	<script src="funciones/cambiar22.js"></script>
+	<script src="funciones/cambiar23.js"></script>
+	<script src="funciones/cambiar24.js"></script>
+	<script src="funciones/cambiar25.js"></script>
+	<script src="funciones/cambiar26.js"></script>
+	<script src="funciones/cambiar27.js"></script>
+	<script src="funciones/cambiar28.js"></script>
+	<script src="funciones/cambiar29.js"></script>
+	<script src="funciones/cambiar30.js"></script>
+	<script src="funciones/cambiar31.js"></script>
+	<script src="funciones/cambiar32.js"></script>
+	<script src="funciones/cambiar33.js"></script>
+	<script src="funciones/cambiar34.js"></script>
+	<script src="funciones/cambiar35.js"></script>
+	<script src="funciones/cambiar36.js"></script>
+
+</body>
+
+</html>
